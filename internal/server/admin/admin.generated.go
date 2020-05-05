@@ -1005,6 +1005,8 @@ enum Operation {
     IS_IN_SEGMENT
     ISNT_IN_SEGMENT
     IS_IN_NETWORK
+    IS_BEFORE
+    IS_AFTER
 }
 
 type Query {

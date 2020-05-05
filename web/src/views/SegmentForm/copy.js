@@ -16,6 +16,8 @@ export const Operations = {
   MATCHES_REGEX: "Matches regex",
   DOESNT_MATCH_REGEX: "Doesn't match regex",
   IS_IN_NETWORK: "Is in network",
+  IS_BEFORE: "Is before",
+  IS_AFTER: "Is after",
 };
 
 export const BooleanType = {

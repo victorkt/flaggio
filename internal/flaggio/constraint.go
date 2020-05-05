@@ -106,4 +106,6 @@ var operatorMap = map[Operation]Operator{
 	OperationIsInSegment:      operator.Validates,
 	OperationIsntInSegment:    operator.DoesntValidate,
 	OperationIsInNetwork:      operator.InNetwork,
+	OperationIsBefore:         operator.Before,
+	OperationIsAfter:          operator.After,
 }

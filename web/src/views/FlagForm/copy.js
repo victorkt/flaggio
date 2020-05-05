@@ -1,10 +1,10 @@
 export const Operations = {
   ONE_OF: "Equals any",
   NOT_ONE_OF: "Not equals any",
-  GREATER: "Greater",
-  GREATER_OR_EQUAL: "Greater or equal",
-  LOWER: "Lower",
-  LOWER_OR_EQUAL: "Lower or equal",
+  GREATER: "Greater than",
+  GREATER_OR_EQUAL: "Greater or equal than",
+  LOWER: "Lower than",
+  LOWER_OR_EQUAL: "Lower or equal than",
   EXISTS: "Exists",
   DOESNT_EXIST: "Doesn't exist",
   CONTAINS: "Contains",
@@ -18,6 +18,8 @@ export const Operations = {
   IS_IN_SEGMENT: "Is in segment",
   ISNT_IN_SEGMENT: "Isn't in segment",
   IS_IN_NETWORK: "Is in network",
+  IS_BEFORE: "Is before",
+  IS_AFTER: "Is after",
 };
 
 export const VariantType = {

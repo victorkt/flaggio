@@ -5,6 +5,7 @@ import (
 	"encoding/hex"
 	"net/http"
 	"sort"
+	"time"
 
 	"github.com/victorkt/clientip"
 	"github.com/victorkt/flaggio/internal/flaggio"
@@ -26,6 +27,7 @@ func (er EvaluationRequest) Bind(r *http.Request) error {
 	// enrich user context
 	er.UserContext["$userId"] = er.UserID
 	er.UserContext["$ip"] = clientip.FromContext(r.Context()).String()
+	er.UserContext["$now"] = time.Now().Format(time.RFC3339)
 	return nil
 }
 
