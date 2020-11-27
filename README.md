@@ -1,3 +1,6 @@
+# This project was moved to https://github.com/uw-labs/flaggio
+
+
 # flaggio
 
 Flaggio is a feature flag system that runs on your infrastructure. It supports single on/off as well as string and numeric flag values, user segmentation, and percentage rollout of features.
